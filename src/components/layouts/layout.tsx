@@ -20,7 +20,7 @@ export const Layout: React.FC = ({ children }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Realizado por Equipo Innovacion Digital
+          Realizado por Equipo Innovación Digital
         </a>
       </footer>
     </div>

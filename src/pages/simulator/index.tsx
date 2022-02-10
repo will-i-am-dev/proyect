@@ -15,12 +15,10 @@ const Simulator: NextPage = () => {
           <Label>Monto a solicitar</Label>
           <Range />
           <Label>Coutas </Label>
-          <Input name="id" />
+          <Input name="id" type='number' />
           <div className="pt-4">
             <Button
               onClick={() => {}}
-              // onClick={() => router.push("/simulator/")}
-              // type="success"
               text="Calcular"
             />
           </div>

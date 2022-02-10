@@ -16,9 +16,11 @@ export default function Sidebar () {
           >
             x
           </button>
-          <Link href="/">
+          <Link href="/simulator/">
             <a className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0 text-white">
-              <Image src={'logo.png'} />
+
+              <Image src={'/logo.png'} alt="Current Image" width={600} height={110}/>
+
             </a>
           </Link>
           <div
