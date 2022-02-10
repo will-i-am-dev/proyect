@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { formatMoney } from "../../utils/formatMoney";
+import { useState } from 'react'
+import { formatMoney } from '../../utils/formatMoney'
 
 interface RangeProps {}
 
 export const Range: React.FC<RangeProps> = (props) => {
-  const max = 5000000;
-  const [value, setValue] = useState(max / 2 + "");
+  const max = 5000000
+  const [value, setValue] = useState(max / 2 + '')
   return (
     <div className="relative pt-1">
       <label htmlFor="customRange1" className="form-label">
@@ -23,5 +23,5 @@ export const Range: React.FC<RangeProps> = (props) => {
         />
       </div>
     </div>
-  );
-};
+  )
+}

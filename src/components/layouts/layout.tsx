@@ -1,5 +1,5 @@
-import Head from "next/head";
-import styles from "../../styles/Home.module.css";
+import Head from 'next/head'
+import styles from '../../styles/Home.module.css'
 
 export const Layout: React.FC = ({ children }) => {
   return (
@@ -24,5 +24,5 @@ export const Layout: React.FC = ({ children }) => {
         </a>
       </footer>
     </div>
-  );
-};
+  )
+}

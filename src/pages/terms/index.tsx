@@ -1,10 +1,10 @@
-import type { NextPage } from "next";
-import { Card } from "../../components/common/card";
-import { AdminLayout } from "../../components/layouts/adminLayout";
+import type { NextPage } from 'next'
+import { Card } from '../../components/common/card'
+import { AdminLayout } from '../../components/layouts/adminLayout'
 
 const Simulator: NextPage = () => {
   return (
-    <AdminLayout title={"Terminos y condiciones"}>
+    <AdminLayout title={'Terminos y condiciones'}>
       <div className="flex flex-row justify-center w-full">
         <Card width="w-1/2">
           <p className="mb-5">Terminos y condiciones:</p>
@@ -47,7 +47,7 @@ const Simulator: NextPage = () => {
         </Card>
       </div>
     </AdminLayout>
-  );
-};
+  )
+}
 
-export default Simulator;
+export default Simulator

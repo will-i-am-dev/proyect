@@ -1,14 +1,10 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { Button } from "../buttons/button";
+import Link from 'next/link'
 
 interface NavbarProps {
   title: string;
 }
 
 export const Navbar: React.FC<NavbarProps> = (props) => {
-  const router = useRouter();
-
   return (
     <>
       <nav className="absolute top-0 left-0 w-full z-10  md:flex-row md:flex-nowrap md:justify-start flex items-center p-4 bg-gray">
@@ -34,5 +30,5 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         </div>
       </nav>
     </>
-  );
-};
+  )
+}

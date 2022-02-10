@@ -1,8 +1,10 @@
-import React from "react";
-import Link from "next/link";
 
-export default function Sidebar() {
-  const [collapseShow] = React.useState("hidden");
+import Image from 'next/image'
+import Link from 'next/link'
+import { useState } from 'react'
+
+export default function Sidebar () {
+  const [collapseShow] = useState('hidden')
 
   return (
     <>
@@ -16,12 +18,12 @@ export default function Sidebar() {
           </button>
           <Link href="/">
             <a className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0 text-white">
-              <img src={"logo.png"} />
+              <Image src={'logo.png'} />
             </a>
           </Link>
           <div
             className={
-              "md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded " +
+              'md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded ' +
               collapseShow
             }
           >
@@ -48,5 +50,5 @@ export default function Sidebar() {
         </div>
       </nav>
     </>
-  );
+  )
 }
