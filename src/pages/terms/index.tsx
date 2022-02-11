@@ -6,9 +6,9 @@ const Simulator: NextPage = () => {
   return (
     <AdminLayout title={'Terminos y condiciones'}>
       <div className="flex flex-row justify-center w-full">
-        <Card width="w-1/2">
-          <p className="mb-5">Terminos y condiciones:</p>
-          <p>CLÁUSULAS</p>
+        <Card >
+          <p className="mb-6 text-lg text-center font-bold">Terminos y condiciones:</p>
+          <p className='font-medium'>CLÁUSULAS</p>
           <p>
             PRIMERA.- OBJETO. En virtud del presente reglamento EL BANCO
             establece los términos y condiciones para la utilización de EL

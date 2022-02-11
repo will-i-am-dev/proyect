@@ -11,7 +11,7 @@ export const Layout: React.FC = ({ children }) => {
       </Head>
       <div className="container-fluid">
         <div className="row">
-          <main className="p-16 flex-col justify-center align-middle min-h-screen bg-slate-100">{children}</main>
+          <main className="sm:p-8 md:p-16 flex-col justify-center align-middle min-h-screen bg-slate-100">{children}</main>
         </div>
       </div>
       <footer className={styles.footer}>
