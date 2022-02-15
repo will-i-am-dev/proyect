@@ -6,6 +6,7 @@
     },
     "extends": [
         "plugin:@next/next/recommended",
+        "plugin:storybook/recommended",
         "standard"
     ],
     "parser": "@typescript-eslint/parser",
