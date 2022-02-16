@@ -9,7 +9,7 @@ enum ButtonVariant {
   'dark',
 }
 
-type ButtonProps= {
+interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
   /** Button children element */
   children: React.ReactNode;
   /** Show loading spinner and disable button */
@@ -20,7 +20,7 @@ type ButtonProps= {
   disabled?: boolean;
 
   isDarkBg?: boolean;
-} & React.ComponentPropsWithoutRef<'button'>;
+} 
 /**
  * Primary UI component for user interaction
  */

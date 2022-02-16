@@ -7,6 +7,14 @@ export default {
   argTypes: {
     children: {
       control: { type: 'text' }
+    },
+    variant: {
+      options: ['primary',
+        'outline',
+        'ghost',
+        'light',
+        'dark'],
+      control: { type: 'select' } // Automatically inferred when 'options' is defined
     }
   }
 } as ComponentMeta<typeof Button>
